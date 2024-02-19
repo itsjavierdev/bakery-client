@@ -13,7 +13,7 @@ This project, an Online Bakery Shop, provides a robust platform for bakeries to 
 ---
 
 >[!IMPORTANT]
->This project complements with the admin panel: https://github.com/itsjavierdev/bakery-admin
+>This project complements with the admin dashboard: https://github.com/itsjavierdev/bakery-admin
 
 ---
 
@@ -31,7 +31,7 @@ git clone git@github.com:itsjavierdev/bakery-client.git
 Install composer and node module
 
 ```
-composer update
+composer install
 npm i
 ```
 
