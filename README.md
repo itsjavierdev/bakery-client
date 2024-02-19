@@ -48,12 +48,12 @@ composer dump-autoload
 
 Create symbolic link from public folder to storage folder
 ```
-php artisan storage:link
+mklink /J public\storage c:\laragon\www\bakery-admin\storage\app\public
 ```
 
 Run the migrations, to set the database and seeders
 ```
-php artisan migrate --database=admin_connection --seed
+php artisan migrate --seed
 ```
 
 ## 🏃🏻‍♂️ Run the aplication:
